@@ -1,0 +1,45 @@
+#home-main {
+    height: calc(100% - 56px);
+}
+
+#sidebar-wrapper {
+    width: 250px;
+}
+
+#shared-area {
+    width: calc(100% - 250px);
+}
+
+#task-workflow {
+    height: calc(100% - 95.5px);
+    /* border: 1px solid; */
+}
+
+#task-function-container {
+    width: 300px;
+}
+
+#task-function-display {
+    height: calc(100% - 45px);
+}
+
+#function-metadata-container {
+    width: calc(100% - 300px);
+}
+
+#row2 {
+    height: calc(100% - 156px);
+}
+
+@media (max-width: 767px) {
+    #sidebar-wrapper {
+        width: 250px;
+    }
+    
+    #shared-area {
+        width: 100%;
+    }
+    #row2 {
+        height: auto;
+    }
+}
